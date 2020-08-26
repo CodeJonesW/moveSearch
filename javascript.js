@@ -28,6 +28,7 @@ var queryURL = "https://www.omdbapi.com/?t=" + title + "&y=&plot=short&apikey=tr
 
 button.addEventListener("click", function () {
     // console.log(this)
+    //
     $.ajax({
         url: queryURL,
         method: "GET"
